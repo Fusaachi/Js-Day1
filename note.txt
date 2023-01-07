@@ -1,0 +1,2 @@
+ctrl + : = commentaire en html
+&nbsp = espace

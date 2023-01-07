@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- notre css -->
+    <link rel="stylesheet" href="assets/css/styleFront.css">
+    <title>JAVASCRIPT</title>
+</head>
+<body>
+    <header>
+        <div class="container"></div>
+        <div class="row text-center border rounded pt-1 mt-3">
+            <h4>JAVASCRIPT</h4>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>Les commentaires sous JS</h6>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>1- Langage JavaScript ?</h6>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>2- Comment utiliser JavaScript ?</h6>
+                    <p>&nbsp &nbsp  2-1 Visualiser dans la console du navigateur : commande console.log()</p>
+                    <p>&nbsp &nbsp  2-2 La propriété location : est une propriété native js avec divers informations sur l'url</p>
+                    <p>&nbsp &nbsp  2-3 La propriété document : le DOM (Document Objet Model)</p>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>3- Sélectionner des objets dans document </h6>
+                    <p>&nbsp &nbsp 3-1 Méthode native js getElementById("...") : par le sélecteur id="..." dans l'HTML</p>
+                    <div id="id1"></div>
+                    <p>&nbsp &nbsp 3-2 Méthode native getElementbyClassname("...") : par le sélecteur class="..." dans l'HTML</p>
+                    <div class="class1"></div>
+                    <p>&nbsp &nbsp 3-3 Méthode active js querySelector("...") : par une balise sélecteur personnelle</p>
+                    <maBalise></maBalise>
+                    <p>&nbsp &nbsp 3-4 Méthode native js querySelector("#...") : par le sélecteur id="..."</p>
+                    <div id="id2">Attention au #</div>
+                    <p>&nbsp &nbsp 3-5 Méthode native js querySelector(".exemple") : par le sélecteur class=".exemple"</p>
+                    <div class="class2">Attention au .</div>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>4- Récupérer des objets dans document </h6>
+                    <p>&nbsp &nbsp 4-1 La propriété textContent : récupérer une chaîne de caractères</p>
+                    <p>&nbsp &nbsp 4-2 La propriété value : récupérer une valeur dans une balise input</p>
+                    <input type="text" name="" id="" value="2022">
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>5- Ecrire dans document</h6>
+                    <p>&nbsp &nbsp 5-1 Propriété innerHTML : écrire "BONJOUR JS" sur id="id3"</p>
+                    <div id="id3"> </div>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>6- Les variables : var let const</h6>
+                    <p>&nbsp &nbsp 6-1 Déclaration d'une chaîne de caractère (type String) entre " " ou ' ' </p>
+                    <p>&nbsp &nbsp 6-2 Déclaration d'un nombre entier (type Integer) </p>
+                    <p>&nbsp &nbsp 6-3 Déclaration d'un nombre décimal ou un réel (type Float) </p>
+                    <p>&nbsp &nbsp 6-4 Déclaration d'un nombre binaire 0 ou 1, où 0 vaut false et 1 vaut true (type Boolean)</p>
+                    <p>&nbsp &nbsp 6-5 Rédéclaration d'une variable existante let</p>
+                    <p>&nbsp &nbsp 6-6 Déclaration d'une constante avec const.</p>
+                    <p>&nbsp &nbsp 6-7 Déclaration d'un tableau (type Array)</p>
+                    <p>&nbsp &nbsp 6-8 Déclaration d'un tableau d'objet</p>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>7- Les opérateur + - / * = != < > <= >= ++ --</h6>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>8- Les boucles</h6>
+                    <p>&nbsp &nbsp 8-1 La boucle For  </p>
+                    <p>&nbsp &nbsp 8-2 La boucle do... While... </p>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>9- La concaténation</h6>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>10- Les conditions if, if else, if elseif else, switch case break.</h6>
+                    <p>&nbsp &nbsp 10-1 if  </p>
+                    <p>&nbsp &nbsp 10-2 if else </p>
+                    <p>&nbsp &nbsp 10-3 if else if else </p>
+                    <p>&nbsp &nbsp 10-4 La condition Switch case break</p>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h6>11- Ecouteurs d'évènement</h6>
+                    <button id ="bt" class="col-1 btn bg-primary text-light fw-bold ">Valider</button>
+                    <p>&nbsp &nbsp 11-2 Déclaration d'une fonction avec paramètre</p>
+                    <div id="resultat" class="text-white"> </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <!-- script js bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- nos script js-->
+    <script src="assets/js/js1.js"></script>
+
+</body>
+</html>
